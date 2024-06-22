@@ -1,0 +1,24 @@
+#summary-div {
+  background-image: url("./assets/images/urban-vintage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.project-card-grid {
+}
+
+.project-card {
+  width: 18rem;
+}
+
+@media screen and (max-width: 992px) {
+  .project-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
